@@ -1,5 +1,4 @@
- **Enhancing Patient Interactions: The Human Touch of ChatGPT**
-
+ # Enhancing Patient Interactions: The Human Touch of ChatGPT
 ---
 
 **Introduction**
