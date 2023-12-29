@@ -1,4 +1,6 @@
  # Enhancing Patient Interactions: The Human Touch of ChatGPT
+
+ ![ai-generated-8177861_1920](https://github.com/Boves556/1st-repo/assets/41876694/a8ee4ca8-75c6-43cf-8643-95d0185704ec)
 ---
 
 **Introduction**
