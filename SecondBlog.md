@@ -7,7 +7,7 @@
 
 In the ever-evolving healthcare landscape, the integration of artificial intelligence (AI) is not just a leap into the future but a stride in the present. Among the myriad of AI advancements, ChatGPT stands out, particularly in revolutionizing patient interactions. This blog post isn't just a check-up but a deep dive into how ChatGPT is transforming the healthcare sector, enhancing patient engagement through empathetic and ethically responsible conversational interfaces. We'll navigate the corridors of design principles, ethical considerations, and real-world examples that highlight the impact of ChatGPT in healthcare.
 
----
+-
 
 **Design Principles for Patient-Centric ChatGPT Interactions**
 
