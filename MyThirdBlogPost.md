@@ -12,7 +12,7 @@ In Today'S Fast-Paced World, Administrative Tasks Can Often Become A Bottleneck 
 # Use Cases For ChatGPT As A Virtual Assistant
 ChatGPT, Based On The GPT-3.5 Architecture, Is A Versatile Tool That Can Be Harnessed To Optimize Various Administrative Workflows In Healthcare Settings. Here Are Some Compelling Use Cases:
 
-** 1. Appointment Scheduling**
+**1. Appointment Scheduling**
 One Of The Most Time-Consuming Tasks In Healthcare Administration Is Scheduling Patient Appointments. ChatGPT Can Assist In This Process By Interacting With Patients, Checking The Availability Of Doctors, And Automatically Setting Up Appointments. Patients Can Converse With ChatGPT Through A Web Portal Or Chatbot, Providing Their Preferred Date And Time. ChatGPT Can Then Access The Clinic'S Scheduling System, Find A Suitable Slot, And Confirm The Appointment—All In A Matter Of Seconds.
 
 ** 2. Data Entry And Documentation**
