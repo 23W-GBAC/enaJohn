@@ -14,7 +14,7 @@ SRC="/mnt/c/Users/Ena John Egbe/Downloads/$FILENAME"
 DEST="~/enaJohn/images/"
 
 # Copy the file
-cp "$SRC" $DEST
+cp "$SRC" "$DEST"
 
 # Navigate to your Git repository
 cd ~/enaJohn
