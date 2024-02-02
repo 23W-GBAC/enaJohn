@@ -1,13 +1,19 @@
 #!/bin/bash
 
-# Define the filename and title for the new Markdown file
-filename="MyThirdBlogPost.md"
+# Check if an argument is provided (i.e., the new filename)
+if [ $# -eq 0 ]; then
+	  echo "Usage: $0 <filename>"
+	    exit 1
+fi
+
+# Define the filename from the script's first argument
+filename="$1"
 title="Optimizing Administrative Workflows: ChatGPT as Your Virtual Assistant"
 
 # Check if the file already exists, and if it does, exit
 if [ -e "$filename" ]; then
-	    echo "File '$filename' already exists. Aborting."
-	        exit 1
+	  echo "File '$filename' already exists. Aborting."
+	    exit 1
 fi
 
 # Create the Markdown file and add the template
@@ -45,6 +51,16 @@ Summarize the key points in the conclusion.
 
 - [Reference 1](https://example.com/reference1)
 - [Reference 2](https://example.com/reference2)
+
+# Add to the end of publish_post.sh script
+
+SUBJECT="New Blog Post Published!"
+BODY="A new post has been published on my blog. Check it out at: [Your Blog URL]"
+
+while IFS= read -r email; do
+	    echo -e "Subject:$SUBJECT\n\n$BODY" | sendmail "$email"
+    done < "subscribers.txt"
+
 
 EOL
 
