@@ -8,6 +8,9 @@ tags:
   - Blogging
   - Automation
 ---
+
+![OpenAI](./images/chatgpt.png)
+
 # Building with ChatGPT: A Practical Guide for Healthcare Developers
 
 Are you ready to take advantage of ChatGPT's incredible potential in the field of healthcare administration? In this comprehensive guide, we will walk you through the process of seamlessly integrating ChatGPT into your healthcare applications. From accessing ChatGPT through APIs to customizing it for healthcare-specific use cases, you'll gain the knowledge and skills to drive innovation in healthcare.
@@ -46,14 +49,4 @@ Learn from their experiences, discover best practices, and gain insights into ho
 Ready to embark on your journey of healthcare innovation with ChatGPT? Start building today, and witness the transformation it can bring to healthcare administration.
 
 *Disclaimer: ChatGPT is a powerful tool, but it should not be used as a substitute for professional medical advice or diagnosis.*
-
-# Add to the end of publish_post.sh script
-
-SUBJECT="New Blog Post Published!"
-BODY="A new post has been published on my blog. Check it out at: [Your Blog URL]"
-
-while IFS= read -r email; do
-	    echo -e "Subject:\n\n" | sendmail ""
-    done < "subscribers.txt"
-
 
