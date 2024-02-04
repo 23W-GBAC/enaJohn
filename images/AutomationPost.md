@@ -59,12 +59,37 @@ echo "Text formatting applied to '$filename'."
 **The Solution:** A script that automates the process of handling images, ensuring they are efficiently managed and correctly integrated into my blog posts.
 
 **Script 3: Automated Image Processing and Git Management**
-```bash
-#!/bin/bash
+```#!/bin/bash
 
-# Automated handling of blog post images
-# ... (refer to the provided script for full details)
+# Check if a filename argument is provided
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 <filename>"
+    exit 1
+fi
 
+# Define the filename argument
+FILENAME="$1"
+
+# Define the paths
+SRC="/mnt/c/Users/Ena John Egbe/Downloads/$FILENAME"
+DEST="~/enaJohn/images/"
+
+# Copy the file
+cp "$SRC" ~/enaJohn/images/
+
+# Navigate to your Git repository
+cd ~/enaJohn
+
+# Add the copied file to Git
+git add .
+
+# Commit the changes with a message
+git commit -am "$FILENAME"
+
+# Push the changes to your remote repository
+git push origin main
+
+# Print a success message
 echo "File '$FILENAME' has been successfully copied and pushed to your Git repository."
 ```
 
@@ -77,12 +102,16 @@ echo "File '$FILENAME' has been successfully copied and pushed to your Git repos
 **The Solution:** An automation script that sends email notifications to my subscribers list whenever a new post is published, keeping my audience engaged and informed.
 
 **Script 4: Email Notification System**
-```bash
-#!/bin/bash
+```#!/bin/bash
 
-# Automated email notifications to subscribers
-# ... (refer to the provided script for full details)
+# Set the subject and body of the email
+SUBJECT="New Blog Post Published!"
+BODY="A new post has been published on my blog. Check it out at: [https://github.com/23W-GBAC/enaJohn/tree/main]"
 
+# Loop through the list of subscribers and send email to each one
+while IFS= read -r email; do
+    # Send the email using the 'mail' command
+    echo "$BODY" | mail -s "$SUBJECT" "$email"
 done < "subscribers.txt"
 ```
 
