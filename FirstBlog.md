@@ -7,7 +7,7 @@ In today's rapidly evolving healthcare landscape, where communication and effici
 
 ChatGPT is a state-of-the-art language model powered by artificial intelligence. It belongs to the family of conversational AI, a rapidly advancing field that focuses on enabling machines to engage in natural and human-like conversations. These AI models, like ChatGPT, are designed to understand and generate human language, making them invaluable tools in various industries, including healthcare.
 
-## Understanding Conversational AI
+## Understanding Conversational AI 
 
 At its core, conversational AI seeks to replicate the way humans communicate. It's not just about understanding words and sentences but also comprehending context, tone, and intent. ChatGPT achieves this by leveraging a massive dataset of text from the internet, allowing it to generate coherent and contextually relevant responses.
 
